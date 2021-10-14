@@ -19,7 +19,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepublish": "tsc"
+    "prepublish": "tsc",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@types/lru-cache": "^5.1.0",
