@@ -37,11 +37,9 @@ export const signUpHandler =
 
 export const SanityCredentials = (client: SanityClient): CredentialsConfig =>
   Providers.Credentials({
-    name: 'Credentials',
-    id: 'sanity-login',
     credentials: {
       email: {
-        label: 'Email',
+        label: 'username',
         type: 'text'
       },
       password: {
